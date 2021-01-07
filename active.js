@@ -40,6 +40,21 @@ $(document).ready(function () {
             time: 1000,
             triggerOnce:true
         });
+
+   // sticky nav-area-start------------------------- 
+    $(window).scroll(function () {
+        var topPosition = $(document).scrollTop();
+        if (topPosition > 100) {
+            $('.hero-content-wrapper header').addClass("fixed-nav");
+            // $('.logo-area h4').css("color", "#000");
+            // $('.menu-icon i').css("color", "#000");
+        }
+        else {
+            $('.hero-content-wrapper header').removeClass("fixed-nav");
+            // $('.logo-area h4').css("color", "#FFF");
+            //  $('.menu-icon i').css("color", "#FFF");
+        }
+    });
             // // top-scroll-button-active---------------------
     $(window).scroll(function () {
         if ($(window).scrollTop() > 200) {

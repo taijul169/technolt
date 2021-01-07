@@ -161,6 +161,19 @@ ul li {
 .scroll-top-indicator i {
   font-weight: 700;
 }
+/* header-sticy */
+.hero-content-wrapper header.fixed-nav {
+	padding: 15px 0px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+	background: #FFF;
+	transition: var(--transition);
+	-webkit-box-shadow: 0 0.5rem 1rem rgba(1, 164, 121, .30) !important;
+	box-shadow: 0 0.5rem 1rem rgba(1, 164, 121, .10) !important;
+}
 /* sidenav-controler-btn */
 .sidebar-controler {
 	position: fixed;
@@ -241,6 +254,7 @@ ul li {
 .hero-content-wrapper header {
 	padding: 20px 0px;
 	border-bottom: 1px solid #f4f4f4;
+	transition: var(--transition);
 }
 
 .submenu li a {
