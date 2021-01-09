@@ -10,6 +10,7 @@
   z-index: 999999;
 }
 :root {
+  --blue-theme:#B38322;
   --themeColor: #01A479;
   --transition: all 0.3s ease-in-out;
   --boxShadow:  0 0.5rem 1rem rgba(1, 164, 121, .30) !important;
@@ -226,6 +227,9 @@ ul li {
 	display: flex;
 	align-content: center;
 	align-items: center;
+}
+.logo img {
+	width: 65px;
 }
  .logo h3 span {
 	color: var(--themeColor);
@@ -470,6 +474,10 @@ ul li {
 	padding: 35px 20px;
 	background: #D0FAEC;
 	border-radius: 8px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .one{
   background-color: #D0FAEC;
