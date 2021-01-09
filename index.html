@@ -417,34 +417,40 @@
                            
                      <div class="col-md-8 col-lg-8 col-xl-8 col-sm-12 col-12">
                          <div class="row">
+                             <div class="col-md-8 col-lg-8 col-xl-8 offset-md-2 offset-lg-2 offset-xl-2">
+                                  <!-- error-success-msg -->
+                               <div class="msg-box-wrapper">
+                                <span class="msg-box"></span>
+                               </div>
+                             </div>
                              <!-- first-name -->
                              <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <input type="text" placeholder="First Name">
+                                     <input type="text" placeholder="First Name" id="f_name">
                                  </div>
                              </div>
                               <!-- last-name -->
                              <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <input type="text" placeholder="Last Name">
+                                     <input type="text" placeholder="Last Name" id="l_name">
                                  </div>
                              </div>
                              <!-- Email -->
                              <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <input type="email" placeholder="Email">
+                                     <input type="email" placeholder="Email" id="u_email">
                                  </div>
                              </div>
                               <!-- Phone -->
                              <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <input type="text" placeholder="Phone">
+                                     <input type="text" placeholder="Phone" id="u_phone">
                                  </div>
                              </div>
                                <!-- Select Service -->
                                <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                    <div class="form-group">
-                                       <select name="" id="">
+                                       <select name="" id="service">
                                            <option value="-Select Service">-Select Service</option>
                                            <option value="Digital Marketing">Digital Marketing</option>
                                            <option value="SEO">SEO</option>
@@ -456,21 +462,29 @@
                                  <!-- Subject -->
                              <div class="col-md-6 col-lg-6 col-xl-6 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <input type="text" placeholder="Phone">
+                                     <input type="text" placeholder="Subject" id="subject">
                                  </div>
                              </div>
                               <!-- Message -->
                              <div class="col-md-12 col-lg-12 col-xl-12 col-12 col-sm-12">
                                  <div class="form-group">
-                                     <textarea name="" id="" cols="5" rows="3" placeholder="Message"></textarea>
+                                     <textarea name="" id="u_message" cols="5" rows="3" placeholder="Message"></textarea>
                                  </div>
                              </div>
-                               <!-- Message -->
-                               <div class="col-md-12 col-lg-12 col-xl-12 col-12 col-sm-12">
+                               <!-- submit button -->
+                               <div class="col-md-6 col-lg-6 col-xl-6 col-6 col-sm-6">
                                    <div class="form-group">
-                                      <input type="submit" id="submit" Value="Send Message">
+                                      <input type="submit" class="submit-message" id="submit" Value="Send Message">
                                    </div>
                                </div>
+                                <!-- loader -->
+                                <div class="col-md-6 col-lg-6 col-xl-6 col-6 col-sm-6">
+                                    <div class="form-group">
+                                      <div class="loader-box">
+                                        <img src="assets/images/login/Spinner-1s-200px.gif" alt="spinner.gif">
+                                      </div>
+                                    </div>
+                                </div>
                          </div>
                      </div>
                         <!-- google-map -->
@@ -605,12 +619,12 @@
    
     <script src="assets/plugin/js/jQuery.rProgressbar.js"></script>
     <script src="assets/plugin/js/one-page-scroll.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="assets/plugin/js/sticky.js"></script>
-    <script src="active.js"></script> 
+    <!-- <script src="active.js"></script>  -->
     <script src="formValidate.js"></script>
-    <script src="home.js"></script>
+    <!-- <script src="home.js"></script> -->
 
 </body>
 

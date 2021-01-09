@@ -55,7 +55,7 @@ $(document).ready(function () {
             //  $('.menu-icon i').css("color", "#FFF");
         }
     });
-            // // top-scroll-button-active---------------------
+    // // top-scroll-button-active---------------------
     $(window).scroll(function () {
         if ($(window).scrollTop() > 200) {
             $(".scroll-top-indicator").fadeIn(); 

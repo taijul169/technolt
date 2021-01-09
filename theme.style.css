@@ -592,8 +592,31 @@ ul li {
 	padding-top: 50px;
 	width: 100%;
 }
-
-
+.msg-box {
+	display: block;
+	background: #ff000012;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	/* color: #ff4a4a; */
+	display: none;
+}
+.msg-box-success {
+	display: block;
+	background-color: #01A47912;
+	text-align: center;
+	padding: 10px 20px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	color: #01A479;
+}
+.loader-box{
+	display: none;
+}
+.loader-box img {
+	width: 55px;
+}
 
 /* footer-section */
 .social-link ul {
