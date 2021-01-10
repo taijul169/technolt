@@ -8,76 +8,79 @@
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media (max-width:767px) {
-	.sidebar-controler{
+	.header-nav nav {
+		position: fixed;
+		background: #000;
+		width: 100%;
+		height: auo;
+		left: 0;
+		top: 50px;
+		z-index: 9999;
+		transition: all 0.5s ease-in-out;
+		height: 0px;
+		overflow: hidden;
+	}
+	.header-nav ul li {
 		display: block;
 	}
-	.margin-left-300{
-		margin-left: 0px;
+	.header-nav ul li .submenu li a{
+		color: #000;
 	}
-	.sidebar-home {
-		width: 0px;
+	.header-nav ul li a {
+		color: #fff;
+		margin-left: 15px;
 	}
-	.form-wrapper {
-	margin:0px 10px;
-}
-
+	.header-nav {
+		position: relative;
+	}
+	.nav-menu-icon span {
+		display: block;
+		background: #000;
+		height: 2px;
+		width: 30px;
+		margin: 3px;
+		transition: 0.5s ease-in;
+	}
+	.nav-menu-icon span:hover{
+		cursor: pointer;
+	}
+	.nav-menu-icon {
+		position: absolute;
+		right: 20px;
+	}
+	.logo {
+		margin-top: -10px;
+	}
+	.header-nav nav.mean-menu{
+		height: 200px;
+		overflow: visible;
+	}
+	.submenu li a {
+		display: block;
+		color: #000;
+	}
+	.hero-content-text {
+		margin-top: 100px;
+	}
+	.footer-link-bottom {
+		text-align: center;
+	}
+	.single-widget {
+		margin-top: 20px;
+	}
+	.single-brand {
+		margin-bottom: 10px;
+	}
+	.service-area {
+		padding: 50px 0;
+	}
 }
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width:500px) {
-	.progess-left {
-	margin-bottom: 25px;
-}
-.sidebar-controler {
-	top: 2%;
-}
-.recent-work-nav ul li {
-	display: block;
-	margin: 10px;
-	text-align: center;
-	border-radius: 5px;
-}
-.single-reviews-wrapper p::before {
-	top: -18%;
-}
-.single-counter {
-	text-align: center;
-	margin-bottom: 15px;
-}
-.single-counter i {
-	float: none;
-	margin-left: 55px;
-}
-.about-img {
-	padding: 30px 20px;
-	text-align: center;
-}
-	.tab-nav ul li a {
-	width: 125px;
-	height: 31px;
-	margin-bottom: 0px;
-	font-size: 8px;
-}
-.single-progressbar span {
-	font-size: 12px;
-}
-.single-progressbar {
-	margin-top: -18px;
-}
- .single-progressbar .proggress {
-	height: 4px;
-	width: 10px;
-	background-color: #ff0;
-}
-.common-button {
-	padding: 6px 30px;
-	font-size: 11px;
-}
-.section-title p {
-	font-size: 10px;
-}
-.single-counter-wrapper h4 {
-	font-size: 20px;
-}
+	.hero-content-text h1 {
+		margin-bottom: 30px;
+		font-size: 32px;
+	}
   
 }
 /* Extra small devices (phones, 600px and down) */
