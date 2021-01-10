@@ -701,4 +701,6 @@ ul li {
 .footer-link-bottom li a{
 	color: #353353;
 }
-
+.single-widget .logo img {
+	width: 150px;
+}
